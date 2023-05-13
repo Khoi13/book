@@ -1,0 +1,7 @@
+.grid {
+    --grid: 12;
+    width: calc(100% / 12 * var(--grid));
+    border-radius: 16px;
+    border: 1px solid rgb(114, 114, 114);
+    padding: 12px;
+}

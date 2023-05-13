@@ -1,0 +1,25 @@
+.main-content {
+    height: 100%;
+}
+
+.side-status {
+    margin-left: 16px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-text {
+    line-break: anywhere;
+    animation: slider 0.25s ease-in;
+}
+
+@keyframes slider {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
