@@ -54,3 +54,24 @@
         backdrop-filter: blur(1px);
     }
 }
+
+@media (min-width: 620px) and (max-width: 880px) {
+    .displays-status .controller {
+        left: 10px;
+        right: 10px;
+    }
+}
+
+// @media (max-width: 620px) and (min-width: 560px) {
+//     .displays-status .controller {
+//         left: 10px;
+//         right: 10px;
+//     }
+// }
+
+@media (max-width: 368px) {
+    .displays-status .controller {
+        left: 10px;
+        right: 10px;
+    }
+}

@@ -6,7 +6,7 @@ import Warn from '~/layouts/components/Warn';
 function App() {
     const [warnState, setWarnState] = useState(true);
     return (
-        <div>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
             {warnState && (
                 <Warn
                     header={'Cảnh Báo!'}
