@@ -39,6 +39,22 @@ function Timer({
     const [timeLeft, setTimeLeft] = useState(getTime(wDay, wMonth, wYear, wTime));
 
     const { days, hours, minutes, seconds, pass } = timeLeft;
+     
+    const MonthNum = {
+        January:   01,
+        February:  02,  
+        March:     03, 
+        April:     04, 
+        May:       05, 
+        June:      06, 
+        July:      07, 
+        August:    08, 
+        September: 09, 
+        October:   10, 
+        November:  11, 
+        December:  12
+    }                     
+                          
     setTimeout(() => {
         setTimeLeft(getTime(wDay, wMonth, wYear, wTime));
     }, 1000);
@@ -68,7 +84,7 @@ function Timer({
         case 'YES':
             return (
                 <span className={cx('day')}>
-                    {wDay}/{wMonth}/{wYear}
+                    {wDay}/{MonthNum[wMonth]}/{wYear}
                 </span>
             );
     }
