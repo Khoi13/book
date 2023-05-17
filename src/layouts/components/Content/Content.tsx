@@ -22,7 +22,7 @@ function Content() {
         <SliderText>
             <ul>
                 <li>
-                    Bài làm về kỉ niệm thành lập trường của nhóm chúng em có 3 người: Thái Nguyên Khôi, Phan Tuấn Anh,
+                    Bài làm về kỉ niệm ngày thành lập trường của nhóm chúng em có 3 người: Thái Nguyên Khôi, Phan Tuấn Anh,
                     Cao Hà Gia Huy.
                 </li>
                 <li>
